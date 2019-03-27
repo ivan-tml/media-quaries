@@ -1,0 +1,26 @@
+.box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+/* media queries */
+
+@media (max-width: 767px) {
+    .mobile {
+        background-color: #FF5900;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .tablet {
+        background-color: #17FF01;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1800px) {
+    .desktop {
+        background-color: #00A8E8;
+    }
+}
